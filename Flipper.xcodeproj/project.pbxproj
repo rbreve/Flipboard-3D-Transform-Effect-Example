@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECC8BA31496982D0026A8F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECC8BA21496982D0026A8F8 /* UIKit.framework */; };
+		2ECC8BA51496982D0026A8F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECC8BA41496982D0026A8F8 /* Foundation.framework */; };
+		2ECC8BA71496982D0026A8F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECC8BA61496982D0026A8F8 /* CoreGraphics.framework */; };
+		2ECC8BAD1496982D0026A8F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC8BAB1496982D0026A8F8 /* InfoPlist.strings */; };
+		2ECC8BAF1496982D0026A8F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC8BAE1496982D0026A8F8 /* main.m */; };
+		2ECC8BB31496982D0026A8F8 /* FlipperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC8BB21496982D0026A8F8 /* FlipperAppDelegate.m */; };
+		2ECC8BBB149698560026A8F8 /* FlipperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC8BBA149698560026A8F8 /* FlipperController.m */; };
+		2ECC8BBE149698720026A8F8 /* FlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC8BBD149698720026A8F8 /* FlipView.m */; };
+		2ECC8BC0149698960026A8F8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC8BBF149698960026A8F8 /* Storyboard.storyboard */; };
+		2ECC8BC2149699020026A8F8 /* _MG_9352.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC8BC1149699020026A8F8 /* _MG_9352.jpg */; };
+		2ECC8BC414969E7C0026A8F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECC8BC314969E7C0026A8F8 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ECC8B9E1496982D0026A8F8 /* Flipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECC8BA21496982D0026A8F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2ECC8BA41496982D0026A8F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2ECC8BA61496982D0026A8F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2ECC8BAA1496982D0026A8F8 /* Flipper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flipper-Info.plist"; sourceTree = "<group>"; };
+		2ECC8BAC1496982D0026A8F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ECC8BAE1496982D0026A8F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ECC8BB01496982D0026A8F8 /* Flipper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flipper-Prefix.pch"; sourceTree = "<group>"; };
+		2ECC8BB11496982D0026A8F8 /* FlipperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipperAppDelegate.h; sourceTree = "<group>"; };
+		2ECC8BB21496982D0026A8F8 /* FlipperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipperAppDelegate.m; sourceTree = "<group>"; };
+		2ECC8BB9149698560026A8F8 /* FlipperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipperController.h; sourceTree = SOURCE_ROOT; };
+		2ECC8BBA149698560026A8F8 /* FlipperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipperController.m; sourceTree = SOURCE_ROOT; };
+		2ECC8BBC149698720026A8F8 /* FlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipView.h; path = ../FlipView.h; sourceTree = "<group>"; };
+		2ECC8BBD149698720026A8F8 /* FlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipView.m; path = ../FlipView.m; sourceTree = "<group>"; };
+		2ECC8BBF149698960026A8F8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		2ECC8BC1149699020026A8F8 /* _MG_9352.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _MG_9352.jpg; sourceTree = "<group>"; };
+		2ECC8BC314969E7C0026A8F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECC8B9B1496982D0026A8F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC8BC414969E7C0026A8F8 /* QuartzCore.framework in Frameworks */,
+				2ECC8BA31496982D0026A8F8 /* UIKit.framework in Frameworks */,
+				2ECC8BA51496982D0026A8F8 /* Foundation.framework in Frameworks */,
+				2ECC8BA71496982D0026A8F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECC8B931496982C0026A8F8 = {
+			isa = PBXGroup;
+			children = (
+				2ECC8BC314969E7C0026A8F8 /* QuartzCore.framework */,
+				2ECC8BA81496982D0026A8F8 /* Flipper */,
+				2ECC8BA11496982D0026A8F8 /* Frameworks */,
+				2ECC8B9F1496982D0026A8F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECC8B9F1496982D0026A8F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC8B9E1496982D0026A8F8 /* Flipper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECC8BA11496982D0026A8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC8BA21496982D0026A8F8 /* UIKit.framework */,
+				2ECC8BA41496982D0026A8F8 /* Foundation.framework */,
+				2ECC8BA61496982D0026A8F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ECC8BA81496982D0026A8F8 /* Flipper */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC8BB9149698560026A8F8 /* FlipperController.h */,
+				2ECC8BBA149698560026A8F8 /* FlipperController.m */,
+				2ECC8BBC149698720026A8F8 /* FlipView.h */,
+				2ECC8BBD149698720026A8F8 /* FlipView.m */,
+				2ECC8BBF149698960026A8F8 /* Storyboard.storyboard */,
+				2ECC8BC1149699020026A8F8 /* _MG_9352.jpg */,
+				2ECC8BB11496982D0026A8F8 /* FlipperAppDelegate.h */,
+				2ECC8BB21496982D0026A8F8 /* FlipperAppDelegate.m */,
+				2ECC8BA91496982D0026A8F8 /* Supporting Files */,
+			);
+			path = Flipper;
+			sourceTree = "<group>";
+		};
+		2ECC8BA91496982D0026A8F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC8BAA1496982D0026A8F8 /* Flipper-Info.plist */,
+				2ECC8BAB1496982D0026A8F8 /* InfoPlist.strings */,
+				2ECC8BAE1496982D0026A8F8 /* main.m */,
+				2ECC8BB01496982D0026A8F8 /* Flipper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECC8B9D1496982D0026A8F8 /* Flipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECC8BB61496982D0026A8F8 /* Build configuration list for PBXNativeTarget "Flipper" */;
+			buildPhases = (
+				2ECC8B9A1496982D0026A8F8 /* Sources */,
+				2ECC8B9B1496982D0026A8F8 /* Frameworks */,
+				2ECC8B9C1496982D0026A8F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipper;
+			productName = Flipper;
+			productReference = 2ECC8B9E1496982D0026A8F8 /* Flipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECC8B951496982C0026A8F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Icoms;
+			};
+			buildConfigurationList = 2ECC8B981496982C0026A8F8 /* Build configuration list for PBXProject "Flipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2ECC8B931496982C0026A8F8;
+			productRefGroup = 2ECC8B9F1496982D0026A8F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECC8B9D1496982D0026A8F8 /* Flipper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECC8B9C1496982D0026A8F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC8BAD1496982D0026A8F8 /* InfoPlist.strings in Resources */,
+				2ECC8BC0149698960026A8F8 /* Storyboard.storyboard in Resources */,
+				2ECC8BC2149699020026A8F8 /* _MG_9352.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECC8B9A1496982D0026A8F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC8BAF1496982D0026A8F8 /* main.m in Sources */,
+				2ECC8BB31496982D0026A8F8 /* FlipperAppDelegate.m in Sources */,
+				2ECC8BBB149698560026A8F8 /* FlipperController.m in Sources */,
+				2ECC8BBE149698720026A8F8 /* FlipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ECC8BAB1496982D0026A8F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECC8BAC1496982D0026A8F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECC8BB41496982D0026A8F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2ECC8BB51496982D0026A8F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECC8BB71496982D0026A8F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flipper/Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Flipper/Flipper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2ECC8BB81496982D0026A8F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flipper/Flipper-Prefix.pch";
+				INFOPLIST_FILE = "Flipper/Flipper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECC8B981496982C0026A8F8 /* Build configuration list for PBXProject "Flipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECC8BB41496982D0026A8F8 /* Debug */,
+				2ECC8BB51496982D0026A8F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECC8BB61496982D0026A8F8 /* Build configuration list for PBXNativeTarget "Flipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECC8BB71496982D0026A8F8 /* Debug */,
+				2ECC8BB81496982D0026A8F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECC8B951496982C0026A8F8 /* Project object */;
+}
