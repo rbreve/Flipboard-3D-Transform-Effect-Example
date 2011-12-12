@@ -1,8 +1,9 @@
-It's a simple example on how to emulate the Flipboard 3D effect on a UIView.
+It's a simple iOS 5 project example on how to emulate the Flipboard 3D effect on a UIView.
 
 In this example I use a UIIMageView, UIPanGestureRecognizer and CATransform3D
 
-[Here is a video running this example](http://youtu.be/Qi-J0NrTlq0)
+Here is a video running this example: http://youtu.be/Qi-J0NrTlq0
+
 
 
 
